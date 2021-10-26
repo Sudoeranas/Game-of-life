@@ -1,6 +1,5 @@
-# DM07
-# PG2 NSI
 # Game Of Life
+# Author : Sudoeranas
 
 from pixmap import fenêtre, affiche, attend, quitte
 import copy
@@ -18,9 +17,7 @@ NX, NY = 45, 35  # horizontal, vertical
 DEAD = 0x000444 # mortes
 LIVE = 0x0000ff # vivantes
 
-###################################
-# Fonctions à réaliser pour le DM #
-###################################
+
 def init_cell_mortes():
     """
     Renvoie une matrice de cellules mortes de dimensions (NX, NY).
@@ -122,7 +119,7 @@ def nouvelle_étape(m):
         j = j+1
     
 
-###################################
+
 
 # la matrice contenant les cellules :
 cellules = init_cell_mortes()
